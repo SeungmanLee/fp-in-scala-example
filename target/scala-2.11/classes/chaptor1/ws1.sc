@@ -22,5 +22,14 @@ val r31 = x3.append(", World").toString
 val r32 = x3.append(", World").toString
 
 
+val f = (x: Double) => math.Pi / 2 - x
+
+val cos = f andThen math.sin
+
+val cosCompose = f compose math.sin
+
+
+
+
 
 
