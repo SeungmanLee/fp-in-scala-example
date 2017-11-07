@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873826ce-a182-4ebc-815d-bee0146f1e15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_10.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_9.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_11.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chaptor3/List.scala" afterPath="$PROJECT_DIR$/src/main/scala/chaptor3/List.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chaptor3/test1.scala" afterPath="$PROJECT_DIR$/src/main/scala/chaptor3/test1.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,17 +35,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/List.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="90" column="21" lean-forward="false" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+              <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exam3_10.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exam3_10.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_10.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam3_11.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_11.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,16 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exam3_6.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_6.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_9.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_10.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chaptor3/List.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chaptor3/exam3_11.scala" />
       </list>
     </option>
   </component>
@@ -329,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.exam3_10">
+  <component name="RunManager" selected="Application.exam3_11">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -430,14 +428,14 @@
       <module name="fp-in-scala" />
       <envs />
     </configuration>
-    <configuration name="exam3_4" type="Application" factoryName="Application" temporary="true">
+    <configuration name="exam3_11" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="chaptor3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chaptor3.exam3_4" />
+      <option name="MAIN_CLASS_NAME" value="chaptor3.exam3_11" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -507,19 +505,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.exam3_4" />
-      <item index="1" class="java.lang.String" itemvalue="Application.exam3_5" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.exam3_9" />
-      <item index="4" class="java.lang.String" itemvalue="Application.exam3_10" />
+      <item index="0" class="java.lang.String" itemvalue="Application.exam3_5" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.exam3_9" />
+      <item index="3" class="java.lang.String" itemvalue="Application.exam3_10" />
+      <item index="4" class="java.lang.String" itemvalue="Application.exam3_11" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.exam3_10" />
-        <item index="1" class="java.lang.String" itemvalue="Application.exam3_9" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.exam3_5" />
-        <item index="4" class="java.lang.String" itemvalue="Application.exam3_4" />
+        <item index="0" class="java.lang.String" itemvalue="Application.exam3_11" />
+        <item index="1" class="java.lang.String" itemvalue="Application.exam3_10" />
+        <item index="2" class="java.lang.String" itemvalue="Application.exam3_9" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.exam3_5" />
       </list>
     </recent_temporary>
   </component>
@@ -568,16 +566,15 @@
       <workItem from="1509927342096" duration="16410000" />
       <workItem from="1510015256038" duration="1429000" />
       <workItem from="1510031172209" duration="966000" />
-      <workItem from="1510053333481" duration="4176000" />
+      <workItem from="1510053333481" duration="5255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38755000" />
+    <option name="totallyTimeSpent" value="39834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2048" height="1212" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -601,7 +598,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28827217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28827217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -624,14 +621,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.11-sources.jar!/scala/collection/IterableLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.11-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -995,18 +984,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/List.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_10.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="90" column="21" lean-forward="false" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_10.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/List.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chaptor3/exam3_11.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
