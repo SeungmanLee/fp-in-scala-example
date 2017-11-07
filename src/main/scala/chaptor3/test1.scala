@@ -24,7 +24,9 @@ object test1 {
 //    println(List(1,2,3) match { case Nil => 42})
 
 
-    println(List.reverse(List(1,2,3)))
+//    println(List.reverse(List(1,2,3)))
+
+//    println(List.loop(1, List(2,3), Cons(1, List(2))))
 
 
 

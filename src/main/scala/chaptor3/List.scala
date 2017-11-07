@@ -45,6 +45,14 @@ object List {
     }
   }
 
+  def dropWhile2[A](l: List[A])(f: A => Boolean): List[A] = {
+    l match {
+      case Cons(h, t) if f(h) => dropWhile2(t)(f)
+      case _ => l
+    }
+  }
+
+
   def setHead[A](newHead: A, xs: List[A]): List[A] = {
     Cons(newHead, tail(xs))
   }
@@ -53,22 +61,13 @@ object List {
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
 
-  def reverse(value: List[Int]): Any = ???
 
-  def init[A](l: List[A]): List[A] = ???
-  //  {
-  //    def loop(m: List[A]) = {
-  //      m match {
-  //        case Nil => Nil
-  //        case Cons(h, Nil) => Nil
-  //        case Cons(h1, Cons(h2, Nil)) => Cons(h1, Nil)
-  //      }
-  //    }
-  //
-  //    l match {
-  //      case Cons(h1, t) => loop(t)
-  //      case Nil => Nil
-  //    }
-  //  }
+  def init[A](l: List[A]): List[A] = {
+    l match {
+      case Nil => Nil
+      case Cons(_, Nil) => Nil
+      case Cons(x, t) => Cons(x, init(t))
+    }
+  }
 }
 

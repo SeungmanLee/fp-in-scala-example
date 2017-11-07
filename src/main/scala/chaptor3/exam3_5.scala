@@ -11,7 +11,8 @@ object exam3_5 {
     println(List.dropWhile(x, (a: Int) => a == 0))  // Nil
     println(List.dropWhile(x, (a: Int) => a == 1))  // 2,3,4,5
 
-
+    println("=============")
+    println(List.dropWhile2(x)(y => y < 4))
   }
 
 }
