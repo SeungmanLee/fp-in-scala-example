@@ -8,15 +8,22 @@ case class Cons[+A](head: A, tail: List[A]) extends List[A]
 object List {
 
 
-  def sum(ints: List[Int]): Int = ints match {
-    case Nil => 0
-    case Cons(x, xs) => x + sum(xs)
+
+  def sum(ints: List[Int]): Int = {
+//    ints match {
+//      case Nil => 0
+//      case Cons(x, xs) => x + sum(xs)
+//    }
+    foldRight(ints, 0)((x, y) => x + y)
   }
 
-  def product(ds: List[Double]): Double = ds match {
-    case Nil => 1.0
-    case Cons(0.0, _) => 0.0
-    case Cons(x, xs) => x * product(xs)
+  def product(ds: List[Double]): Double = {
+//    ds match {
+//      case Nil => 1.0
+//      case Cons(0.0, _) => 0.0
+//      case Cons(x, xs) => x * product(xs)
+//    }
+    foldRight(ds, 1.0)(_ * _)
   }
 
   def tail[A](as: List[A]): List[A] = as match {
@@ -52,7 +59,6 @@ object List {
     }
   }
 
-
   def setHead[A](newHead: A, xs: List[A]): List[A] = {
     Cons(newHead, tail(xs))
   }
@@ -69,5 +75,27 @@ object List {
       case Cons(x, t) => Cons(x, init(t))
     }
   }
+
+  def length[A](as: List[A]): Int = {
+    foldRight(as, 0)((_, y) => (1 + y))
+  }
+
+
+  def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
+    as match {
+      case Nil => z
+      case Cons(x, xs) => f(x, foldRight(xs, z)(f))
+    }
+  }
+
+  @annotation.tailrec
+  def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
+    as match {
+      case Nil => z
+      case Cons(x, xs) => foldLeft(xs, f(z, x))(f)
+    }
+  }
+
+
 }
 

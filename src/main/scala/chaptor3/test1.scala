@@ -7,14 +7,16 @@ object test1 {
 
   def main(args: Array[String]): Unit = {
 
-//    List("a", "b")
-//    val ex1: List[Double] = Nil
-//    val ex2: List[Int] = Cons(1, Nil)
-//    val ex3: List[String] = Cons("a", Cons("b", Nil))
-//
-//    List.sum(ex2)
-//    List.product(ex1)
-//
+    List("a", "b")
+    val ex1: List[Double] = Nil
+    val ex2: List[Int] = Cons(1, Nil)
+    val ex3: List[String] = Cons("a", Cons("b", Nil))
+
+    println(List.sum(ex2))
+    println(List.product(ex1))
+    println(List.sum(Cons(5, Cons(4, Nil))))
+    println(List.product(Cons(2, Cons(3, Nil))))
+
 //
 
 
