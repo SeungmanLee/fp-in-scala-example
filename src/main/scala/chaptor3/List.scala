@@ -103,6 +103,12 @@ object List {
     }
   }
 
+  def foldRightUsingFoldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
+    as match {
+      case Cons(x, xs) => List.foldLeft(xs, f(z, x))(f)
+      case _ => z
+    }
+  }
 
 
 }
