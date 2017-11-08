@@ -14,7 +14,7 @@ object exam3_11 {
     }
 
     def length[A](as: List[A]): Int = {
-      List.foldLeft(as, 0)((b, a) => 1 + b)
+      List.foldLeft(as, 0)((b, _) => 1 + b)
     }
 
     println(sum(List(1,2,3,4,5)))

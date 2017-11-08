@@ -96,6 +96,14 @@ object List {
     }
   }
 
+  def reverse[A](as: List[A]) = {
+    as match {
+      case Cons(x, xs) => List.foldLeft(xs, Cons(x, Nil))((b, a) => Cons(a, b))
+      case Nil => as
+    }
+  }
+
+
 
 }
 
