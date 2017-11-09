@@ -111,5 +111,12 @@ object List {
   }
 
 
+  def map[A, B](as: List[A])(f: A => B): List[B] = {
+    as match {
+      case Cons(x, xs) => Cons(f(x), map(xs)(f))
+      case Nil => Nil
+    }
+  }
+
 }
 

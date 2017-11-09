@@ -9,8 +9,12 @@ object exam3_17 {
     }
   }
 
+
+
   def main(args: Array[String]): Unit = {
     println(convertListDoubleToString(List(1,2,3,4,5)))
     println(convertListDoubleToString(List()))
+
+    println(List.map(List(1.0,2.0,3.0,4.0,5.0))(_.toString))
   }
 }
