@@ -20,5 +20,9 @@ object exam3_19 {
     println(filter(List(1,2,3,4,5))(_ >= 3))  // 3,4,5
     println(filter(List(1,2,3,4,5))(a => (a % 2) == 0)) // 2,4
     println(filter(List(1,2,3,4,5))(_ % 2 == 0)) // 2,4
+
+
+
+    println(filter(List(1,6,3,4,5,2))(_ % 2 == 0)) // 6,4,2
   }
 }
